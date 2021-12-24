@@ -20,6 +20,10 @@
                 sha256 = "sha256-BsrFl9ZH5ZubBp4/beJJR8NL1VmXrR3A25/eEdYXSNs=";
               };
               vendorSha256 = "sha256-qGhm7N7ztHCHw9PfgfQFnpfs+dHlSRtdZnI1dhT1cL8=";
+              postInstall = ''
+                cd $out/bin
+                mv ./cli ./supabase
+              '';
             };
           };
         defaultPackage = packages.supabase-cli;
