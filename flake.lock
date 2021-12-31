@@ -32,7 +32,25 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "supabase-cli": "supabase-cli"
+      }
+    },
+    "supabase-cli": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1640253751,
+        "narHash": "sha256-BsrFl9ZH5ZubBp4/beJJR8NL1VmXrR3A25/eEdYXSNs=",
+        "owner": "supabase",
+        "repo": "cli",
+        "rev": "2806bc88b6aa0e7e237be8e219c8d1ea242191c0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "supabase",
+        "ref": "v0.15.10",
+        "repo": "cli",
+        "type": "github"
       }
     }
   },
