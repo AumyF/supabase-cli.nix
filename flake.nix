@@ -3,7 +3,7 @@
 
   inputs.flake-utils.url = "github:numtide/flake-utils";
   inputs.supabase-cli = {
-    url = "github:supabase/cli/v0.15.10";
+    url = "github:supabase/cli/v0.15.14";
     flake = false;
   };
 
@@ -16,9 +16,9 @@
           {
             supabase-cli = pkgs.buildGo117Module rec {
               pname = "supabase-cli";
-              version = "0.15.10";
+              version = "0.15.14";
               src = supabase-cli;
-              vendorSha256 = "sha256-qGhm7N7ztHCHw9PfgfQFnpfs+dHlSRtdZnI1dhT1cL8=";
+              vendorSha256 = "sha256-mCZrP6cTrIuPbQiE33+7W1njZz2lNHHjUz6KVb6r8+k=";
               postInstall = ''
                 cd $out/bin
                 mv ./cli ./supabase

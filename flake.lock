@@ -39,16 +39,16 @@
     "supabase-cli": {
       "flake": false,
       "locked": {
-        "lastModified": 1640253751,
-        "narHash": "sha256-BsrFl9ZH5ZubBp4/beJJR8NL1VmXrR3A25/eEdYXSNs=",
+        "lastModified": 1640792727,
+        "narHash": "sha256-goYDT+0d6JHoNiErzfVEpS62q8hLZiMIhIT51Xh4f1s=",
         "owner": "supabase",
         "repo": "cli",
-        "rev": "2806bc88b6aa0e7e237be8e219c8d1ea242191c0",
+        "rev": "f4ece64daac6fcad8b63edf51c68424b032b4c4b",
         "type": "github"
       },
       "original": {
         "owner": "supabase",
-        "ref": "v0.15.10",
+        "ref": "v0.15.14",
         "repo": "cli",
         "type": "github"
       }
