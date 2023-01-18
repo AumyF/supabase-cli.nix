@@ -2,11 +2,11 @@
   "nodes": {
     "flake-utils": {
       "locked": {
-        "lastModified": 1638122382,
-        "narHash": "sha256-sQzZzAbvKEqN9s0bzWuYmRaA03v40gaJ4+iL1LXjaeI=",
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "74f7e4319258e287b0f9cb95426c9853b282730b",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
         "type": "github"
       },
       "original": {
@@ -17,11 +17,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1640269308,
-        "narHash": "sha256-vBVwv3+kPrxbNyfo48cB5cc5/4tq5zlJGas/qw8XNBE=",
+        "lastModified": 1673947312,
+        "narHash": "sha256-xx/2nRwRy3bXrtry6TtydKpJpqHahjuDB5sFkQ/XNDE=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "0c408a087b4751c887e463e3848512c12017be25",
+        "rev": "2d38b664b4400335086a713a0036aafaa002c003",
         "type": "github"
       },
       "original": {
@@ -39,16 +39,16 @@
     "supabase-cli": {
       "flake": false,
       "locked": {
-        "lastModified": 1640792727,
-        "narHash": "sha256-goYDT+0d6JHoNiErzfVEpS62q8hLZiMIhIT51Xh4f1s=",
+        "lastModified": 1673594697,
+        "narHash": "sha256-KU2zxkHYv/BZqwHf74t235TdW2W1bdeANnlIvo5qOUI=",
         "owner": "supabase",
         "repo": "cli",
-        "rev": "f4ece64daac6fcad8b63edf51c68424b032b4c4b",
+        "rev": "66b7532aa520dad4e2e6c25d87e8d1b5ed6a8aa2",
         "type": "github"
       },
       "original": {
         "owner": "supabase",
-        "ref": "v0.15.14",
+        "ref": "v1.33.0",
         "repo": "cli",
         "type": "github"
       }
