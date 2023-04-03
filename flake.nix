@@ -3,7 +3,7 @@
 
   inputs.flake-utils.url = "github:numtide/flake-utils";
   inputs.supabase-cli = {
-    url = "github:supabase/cli/v1.33.0";
+    url = "github:supabase/cli/v1.47.2";
     flake = false;
   };
 
@@ -16,9 +16,9 @@
           {
             supabase-cli = pkgs.buildGo120Module rec {
               pname = "supabase-cli";
-              version = "v1.33.0";
+              version = "v1.47.2";
               src = supabase-cli;
-              vendorSha256 = "sha256-3elifjsbT4k3ypUpkg6VoVBbn1WP43IgAjkyT/vvca0=";
+              vendorSha256 = "sha256-3X02RBh9kGXybY9ahkraFiROi8PJDIQb888DP2ObBjg=";
 
               doCheck = false; # FIXME test fails due to network accesses
               postInstall = ''
